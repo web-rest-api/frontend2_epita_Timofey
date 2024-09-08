@@ -1,6 +1,39 @@
-.top-bar {
-    background-color: #777; 
-    top: 0; 
-    width: 100%; 
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-}  
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: .4em;
+    transition: all 250ms ease-in-out;
+}
+
+body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 0 1em;
+    background-color: rgb(143, 142, 142);
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1em;
+}
+
+.header img{
+    width: 80px;
+}
+
+.header ul a:hover{
+    background-color: rgb(161, 158, 158);
+}
